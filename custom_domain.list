@@ -1,0 +1,12 @@
+# 内容 https://www.qweather.com
+# 参考 https://raw.githubusercontent.com/qichiyuhub/rule/refs/heads/master/AI.list
+
+# 域名关键字匹配
+# DOMAIN-KEYWORD,google
+
+# 域名后缀匹配
+# DOMAIN-SUFFIX,qweather.com
+# local
+IP-CIDR,10.0.0.0/8,no-resolve
+IP-CIDR,172.16.0.0/12,no-resolve
+IP-CIDR,192.168.0.0/16,no-resolve
